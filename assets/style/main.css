@@ -4,8 +4,8 @@ body {
 
 @media (max-width: 575.98px) {
   body {
-    overflow: hidden;
     width: 100%;
+    overflow-x: hidden;
   }
 }
 
