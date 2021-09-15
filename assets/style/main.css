@@ -1,0 +1,262 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 575.98px) {
+  body {
+    width: 100%;
+  }
+}
+
+.navbar-tp {
+  padding-top: 30px;
+}
+
+.navbar-tp .navbar-nav {
+  margin-right: 40px;
+}
+
+.navbar-tp .navbar-nav li {
+  padding-left: 40px;
+}
+
+.navbar-tp .navbar-nav .active {
+  color: #02044A !important;
+  font-weight: 600;
+}
+
+.navbar-tp .navbar-nav .nav-link {
+  color: #02044A;
+  font-weight: 400;
+}
+
+.navbar-tp .navbar-nav .nav-link:hover {
+  color: #4E50AA;
+}
+
+.konten {
+  padding-top: 50px;
+  margin-bottom: 30px;
+}
+
+.konten .gambar {
+  margin-top: 10px;
+}
+
+@media (max-width: 575.98px) {
+  .konten .gambar .gambarku {
+    margin-top: 30px;
+    width: 310px;
+    height: 232px;
+  }
+}
+
+.konten .ucapan {
+  margin-top: 50px;
+}
+
+.konten .ucapan .utama {
+  font-weight: bold;
+  font-size: 40px;
+  color: #02044A;
+}
+
+@media (max-width: 575.98px) {
+  .konten .ucapan .utama {
+    font-weight: 700;
+    font-size: 32px;
+    color: #02044A;
+  }
+}
+
+.konten .ucapan .kedua {
+  font-weight: 400;
+  font-size: 16px;
+  color: #9B9CB7;
+  margin-top: 20px;
+}
+
+@media (max-width: 575.98px) {
+  .konten .ucapan .kedua {
+    font-weight: 400;
+    font-size: 14px;
+    color: #9B9CB7;
+  }
+}
+
+.konten .ucapan .btnlanjut {
+  width: 160px;
+  height: 50px;
+  background-color: #02044A;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 12px 26px 12px 25px;
+  border: transparent;
+  border: solid 1px #02044A;
+  margin-top: 20px;
+}
+
+.konten .ucapan .btnlanjut:hover {
+  width: 160px;
+  height: 50px;
+  background-color: #ffffff;
+  color: #02044A;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 12px 26px 12px 25px;
+  border: solid 1px #02044A;
+  margin-top: 20px;
+}
+
+.doa {
+  margin-top: 30px;
+  background-color: #F9F9FB;
+  padding-bottom: 50px;
+}
+
+.doa .harapan {
+  padding-top: 40px;
+}
+
+.doa .doa1 {
+  font-weight: 700;
+  font-size: 46px;
+  text-align: center;
+  color: #02044A;
+  margin-top: 50px;
+}
+
+.doa .doa2 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #9B9CB7;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.doa .gambardoa {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 40px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 575.98px) {
+  .doa .gambardoa {
+    margin-right: 0px;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .doa .gambardoa .gambardoaku {
+    width: 276px;
+    height: 239px;
+    text-align: center;
+    margin-right: 0px;
+  }
+}
+
+.doa .kartu {
+  margin-left: 60px;
+  padding: 30px;
+  border-radius: 22px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  -webkit-box-shadow: 0 80px 70px -15px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 80px 70px -15px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 575.98px) {
+  .doa .kartu {
+    margin-left: -3px;
+    margin-top: 10px;
+    -webkit-box-shadow: 0 10px 40px -15px rgba(0, 0, 0, 0.15);
+            box-shadow: 0 10px 40px -15px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.doa .kartu .itemdoa {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.doa .kartu .itemdoa p {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 8px;
+  margin-bottom: 10px;
+}
+
+.doa .kartu .itemdoa img {
+  float: left;
+  margin-left: 8px;
+  margin-right: 10px;
+}
+
+.doa .kartu .btnbenefit {
+  width: 160px;
+  height: 50px;
+  background-color: #02044A;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 12px 26px 12px 25px;
+  border: transparent;
+  border: solid 1px #02044A;
+  margin-top: 20px;
+}
+
+.doa .kartu .btnbenefit:hover {
+  width: 160px;
+  height: 50px;
+  background-color: #ffffff;
+  color: #02044A;
+  font-weight: 600;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 12px 26px 12px 25px;
+  border: solid 1px #02044A;
+  margin-top: 20px;
+}
+
+.doa .wish {
+  font-weight: 500;
+  font-size: 18px;
+  color: #02044A;
+  margin-bottom: 10px;
+  padding-top: 30px;
+}
+
+.doa .doanya {
+  font-weight: 700;
+  font-size: 36px;
+  color: #02044A;
+  margin-bottom: 5px;
+}
+
+.doa .semoga {
+  font-weight: 400;
+  font-size: 16px;
+  color: #9B9CB7;
+  margin-bottom: 60px;
+}
+
+.footer {
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+
+.footer .tulisan {
+  padding-top: 10px;
+  font-weight: 400;
+  font-size: 12px;
+  color: #cdcdd3;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,310 @@
+$primarycolor:#02044A;
+$hover: #4E50AA;
+
+
+$font-weight:("regular": 400,
+    "medium": 500,
+    "semibold": 600,
+    "bold": 700);
+
+
+body {
+
+
+    font-family: 'Poppins',
+        sans-serif;
+
+    @media (max-width: 575.98px) {
+
+
+        width: 100%;
+
+    }
+
+
+}
+
+// Navsbar
+.navbar-tp {
+    padding-top: 30px;
+
+    .navbar-nav {
+        margin-right: 40px;
+
+        li {
+            padding-left: 40px;
+
+        }
+
+        .active {
+            color: $primarycolor !important;
+            font-weight: map-get($font-weight, semibold);
+        }
+
+        .nav-link {
+            color: $primarycolor;
+            font-weight: map-get($font-weight, regular);
+
+            &:hover {
+                color: $hover;
+            }
+        }
+    }
+}
+
+// Akhir Navbar
+
+// Section konten
+.konten {
+    padding-top: 50px;
+    margin-bottom: 30px;
+
+    .gambar {
+
+        margin-top: 10px;
+
+        .gambarku {
+            @media (max-width: 575.98px) {
+
+                margin-top: 30px;
+                width: 310px;
+                height: 232px;
+            }
+        }
+
+
+
+    }
+
+    .ucapan {
+        margin-top: 50px;
+
+
+
+
+
+        .utama {
+            font-weight: bold;
+            font-size: 40px;
+            color: $primarycolor;
+
+            @media (max-width: 575.98px) {
+
+                font-weight: map-get($font-weight, bold);
+                font-size: 32px;
+                color: $primarycolor;
+
+            }
+        }
+
+        .kedua {
+            font-weight: map-get($font-weight, regular);
+            font-size: 16px;
+            color: #9B9CB7;
+            margin-top: 20px;
+
+            @media (max-width: 575.98px) {
+
+                font-weight: map-get($font-weight, regular);
+                font-size: 14px;
+                color: #9B9CB7;
+
+            }
+        }
+
+        .btnlanjut {
+            width: 160px;
+            height: 50px;
+            background-color: $primarycolor;
+            color: #ffffff;
+            font-weight: map-get($font-weight, semibold);
+            font-size: 18px;
+            border-radius: 10px;
+            padding: 12px 26px 12px 25px;
+            border: transparent;
+            border: solid 1px $primarycolor;
+            margin-top: 20px;
+
+            &:hover {
+                width: 160px;
+                height: 50px;
+                background-color: #ffffff;
+                color: $primarycolor;
+                font-weight: map-get($font-weight, semibold);
+                font-size: 18px;
+                border-radius: 10px;
+                padding: 12px 26px 12px 25px;
+                border: solid 1px $primarycolor;
+                margin-top: 20px;
+            }
+        }
+    }
+
+
+}
+
+// Akhir section konten
+
+
+// Section Doa
+.doa {
+    margin-top: 30px;
+    background-color: #F9F9FB;
+    padding-bottom: 50px;
+
+
+
+    .harapan {
+        padding-top: 40px;
+    }
+
+    .doa1 {
+        font-weight: map-get($font-weight, bold);
+        font-size: 46px;
+        text-align: center;
+        color: $primarycolor;
+        margin-top: 50px;
+    }
+
+    .doa2 {
+        font-weight: map-get($font-weight, regular);
+        font-size: 18px;
+        color: #9B9CB7;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .gambardoa {
+        margin-top: 30px;
+        margin-left: 10px;
+        margin-right: 40px;
+        margin-bottom: 30px;
+
+        @media (max-width: 575.98px) {
+
+            margin-right: 0px;
+            margin-left: 30px;
+        }
+
+        .gambardoaku {
+            @media (max-width: 575.98px) {
+                width: 276px;
+                height: 239px;
+                text-align: center;
+                margin-right: 0px;
+
+
+            }
+        }
+
+
+    }
+
+    .kartu {
+        margin-left: 60px;
+        padding: 30px;
+        border-radius: 22px;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        box-shadow: 0 80px 70px -15px rgba(0, 0, 0, .15);
+
+        @media (max-width: 575.98px) {
+            margin-left: -3px;
+            margin-top: 10px;
+
+            box-shadow: 0 10px 40px -15px rgba(0, 0, 0, .15);
+        }
+
+        .itemdoa {
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+            p {
+                font-size: 16px;
+                font-weight: map-get($font-weight, medium);
+                margin-left: 8px;
+                margin-bottom: 10px;
+            }
+
+            img {
+                float: left;
+                margin-left: 8px;
+                margin-right: 10px;
+            }
+
+        }
+
+        .btnbenefit {
+            width: 160px;
+            height: 50px;
+            background-color: $primarycolor;
+            color: #ffffff;
+            font-weight: map-get($font-weight, semibold);
+            font-size: 18px;
+            border-radius: 10px;
+            padding: 12px 26px 12px 25px;
+            border: transparent;
+            border: solid 1px $primarycolor;
+            margin-top: 20px;
+
+            &:hover {
+                width: 160px;
+                height: 50px;
+                background-color: #ffffff;
+                color: $primarycolor;
+                font-weight: map-get($font-weight, semibold);
+                font-size: 18px;
+                border-radius: 10px;
+                padding: 12px 26px 12px 25px;
+                border: solid 1px $primarycolor;
+                margin-top: 20px;
+            }
+
+        }
+
+
+    }
+
+    .wish {
+        font-weight: map-get($font-weight, medium);
+        font-size: 18px;
+        color: $primarycolor;
+        margin-bottom: 10px;
+        padding-top: 30px;
+    }
+
+    .doanya {
+        font-weight: map-get($font-weight, bold);
+        font-size: 36px;
+        color: $primarycolor;
+        margin-bottom: 5px;
+    }
+
+    .semoga {
+        font-weight: map-get($font-weight, regular);
+        font-size: 16px;
+        color: #9B9CB7;
+        margin-bottom: 60px;
+    }
+
+
+}
+
+// Akhir section doa
+
+// Section dari
+.footer {
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+
+    .tulisan {
+        padding-top: 10px;
+        font-weight: map-get($font-weight, regular);
+        font-size: 12px;
+        color: #cdcdd3;
+    }
+}
+
+// Akhir dari
