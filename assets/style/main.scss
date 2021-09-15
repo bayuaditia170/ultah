@@ -7,6 +7,16 @@ $font-weight:("regular": 400,
     "semibold": 600,
     "bold": 700);
 
+html {
+    @media (max-width: 575.98px) {
+
+
+        width: 100%;
+        overflow-x: hidden;
+
+    }
+}
+
 
 body {
 
