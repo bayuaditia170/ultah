@@ -33,6 +33,8 @@ body {
         width: 100%;
         overflow-x: hidden;
 
+
+
     }
 
 
@@ -312,6 +314,14 @@ body {
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 10px;
+
+    @media (max-width: 575.98px) {
+
+        margin-bottom: 10px;
+
+
+
+    }
 
     .tulisan {
         padding-top: 10px;
